@@ -22,7 +22,7 @@ public class ThisKey {
 	public static void main(String[] args) {
 students st=new students();
 
-st.getAge(14);
+st.getAge(14); //This won't be run coz already 23 parameter was given in this pointer.
 st.printAge();
 	
 	}
