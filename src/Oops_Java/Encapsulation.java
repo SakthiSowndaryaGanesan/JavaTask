@@ -21,6 +21,10 @@ class HDFCbank {
     public double getBalance() {
         return balance;
     }
+    
+    public String getDetails() {
+    	return accountNumber;
+    }
 
     // Deposit method
     public void deposit(double amount) {
@@ -59,5 +63,6 @@ public class Encapsulation{
         acc.withdraw(300);
         acc.withdraw(1500); // Should show error
         System.out.println("Final Balance: Rs." + acc.getBalance());
+        System.out.println(acc.getDetails());
     }
 }
