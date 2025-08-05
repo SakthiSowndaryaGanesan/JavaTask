@@ -1,4 +1,4 @@
-package Collections;
+package SetCollection;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -29,26 +29,25 @@ public class HashSetDemo {
 		Set<String> st=new HashSet<>();
 		
 		st.add("Element1");
-		st.add("Element3");
+		st.add("Element6");
 		st.add("Element5");
 		st.add("Element4");
 		st.add("Element2");
-		st.add("Element7");
-		st.add("Element6");
+		st.add("Element3");
+		st.add("Element8");
 
-		System.out.println(st); //Values are mixed 
+		System.out.println(st); //Values are mixed and unorder collection
 	}
 	
 	public static void main(String[] args) {
 		
 		HashSetDemo hash=new HashSetDemo();
-		hash.duplicateValue();  //Only one printed
-		
-		hash.nullvaluedemo();
+//		hash.duplicateValue();  //Only one printed
+//		
+//		hash.nullvaluedemo();
 		
 		hash.unordereddemo();
 		
-
 	}
 
 }
