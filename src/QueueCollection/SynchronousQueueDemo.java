@@ -47,10 +47,7 @@ public class SynchronousQueueDemo {
 		
 		producer.start();
 		consumer.start();
-				
-			
-
-			
+						
 	}
 
 }

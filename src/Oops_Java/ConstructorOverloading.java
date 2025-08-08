@@ -13,7 +13,6 @@ class Book{
 	 Weight=weight;
 	 
 	 System.out.println("Your book price is : "+price +" and weight: "+weight);
-	 
  }
  
  Book(int price,int quantity,String name){

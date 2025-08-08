@@ -16,12 +16,9 @@ interface X{
 	void run();
 }
 
-interface Y extends X{
-	
-}
 
 //class b is concrete class so we can create an obj for this to access the interface
-class B implements A, Y { // Used implements keyword for the 
+class B implements A, X { // Used implements keyword for the 
 
 	@Override
 	public void show() {

@@ -1,6 +1,7 @@
 package ListCollections;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class ArrayListDemo {
@@ -22,8 +23,15 @@ public class ArrayListDemo {
 		System.out.println((fruits.add("Jack")));
 
 		System.out.println(fruits);
-		fruits.clear();
+//		fruits.clear();
 		System.out.println(fruits);
+		
+		System.out.println("----------------");
+		Iterator it = fruits.iterator();
+		
+		while (it.hasNext()) {
+ System.out.println(it.hasNext());			
+		}
 	}
 
 }
