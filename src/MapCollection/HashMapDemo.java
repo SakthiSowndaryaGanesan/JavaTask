@@ -41,15 +41,27 @@ public class HashMapDemo {
 		studentsMarks.put("Sundar", new student("Sundar",87));
 		studentsMarks.put("Siva", new student("Siva",78));
 		
-		//System.out.println("HashMap Contents : "+ studentsMarks);
+	//System.out.println("HashMap Contents : "+ studentsMarks);
+		
 		for(String s : studentsMarks.keySet()) {
-		System.out.println(s);
+		//System.out.println(s);
+		}
+		
+		for(student sc:studentsMarks.values()) {
+			//System.out.println(sc);
 		}
 		//System.out.println(studentsMarks.get("Prabha"));
-
 		
 		
+		studentsMarks.put("Priya", new student ("Priya",80));
+		studentsMarks.put("Hari Priya", new student ("Hari Priya",86));
+		studentsMarks.put("Sai", new student ("Sai",69));
+		studentsMarks.put("Vinoth", new student ("Vinoth",79));
 		
+		
+		for(String s:studentsMarks.keySet()) {
+			//System.out.println(s);
+		}
 
 	}
 

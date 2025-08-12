@@ -115,19 +115,7 @@ public class EmployeeDemo {
 	empList.stream().filter(Employee -> Employee.getDepartment()
 			.equals("IT")).sorted(Comparator.comparing(EmpDetails::getSalary).reversed())
 	.forEach(e->System.out.println(e.getName() + " - " +e.getDepartment()+ " - "+e.getSalary()));
-	
-	
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	}
 
