@@ -14,7 +14,7 @@ public class SwitchCase {
 		switch (day) {
         case 1:
             System.out.println("Sunday");
-            break;
+%            break;
         case 2:
             System.out.println("Monday");
             break;
@@ -48,7 +48,7 @@ public class SwitchCase {
 	
 	switch(op) {
 	case '+' :
-		System.out.println("The + of 2 values is : " + a+b);
+		System.out.println("The + of 2 values is : " + (a+b));
 		break;
 	case '-' :
 		System.out.println("The - of 2 values is : " + (a-b));
